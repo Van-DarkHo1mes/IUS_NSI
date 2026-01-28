@@ -1,6 +1,13 @@
+node_modules/
+dist/
+
+bin/
+obj/
 .vs/
 .vscode/
+.idea/
+
 *.user
-*.userosscache
 *.suo
+*.userosscache
 *.sln.docstates

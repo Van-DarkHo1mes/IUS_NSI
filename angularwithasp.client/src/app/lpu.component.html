@@ -1,0 +1,16 @@
+<div class="container">
+  <h2>Выберите ЛПУ</h2>
+
+  <select (change)="onLpuSelect($event)">
+    <option value="0">-- Выберите ЛПУ --</option>
+    <option *ngFor="let lpu of lpulist" [value]="lpu.kodlpu">
+      {{ lpu.title }}
+    </option>
+  </select>
+
+  <h3>Компрессорные станции для выбранного ЛПУ:</h3>
+
+  <ul>
+    <li *ngFor="let ks of kslist">{{ ks.title }}</li>
+  </ul>
+</div>

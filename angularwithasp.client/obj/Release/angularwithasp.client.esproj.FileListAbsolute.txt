@@ -1,0 +1,1 @@
+A:\projects\test_task\AngularWithAsp\angularwithasp.client\obj\Release\angularwithasp.client.esproj.CoreCompileInputs.cache

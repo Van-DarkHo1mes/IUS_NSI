@@ -14,7 +14,7 @@ namespace AngularWithAsp.Server.Controllers
     private readonly ApplicationDbContext _context;
 
     public LPUController(ApplicationDbContext context)
-    {
+    { 
       _context = context;
     }
 

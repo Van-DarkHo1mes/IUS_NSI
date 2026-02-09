@@ -8,8 +8,9 @@
     ".NETCoreApp,Version=v6.0": {
       "AngularWithAsp.Server/1.0.0": {
         "dependencies": {
-          "Microsoft.AspNetCore.SpaProxy": "10.0.2",
+          "Microsoft.AspNetCore.SpaProxy": "6.0.11",
           "Microsoft.EntityFrameworkCore": "7.0.0",
+          "Microsoft.Extensions.DependencyInjection": "10.0.2",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "7.0.0",
           "Swashbuckle.AspNetCore": "6.6.2"
         },
@@ -17,13 +18,20 @@
           "AngularWithAsp.Server.dll": {}
         }
       },
-      "Microsoft.AspNetCore.SpaProxy/10.0.2": {},
+      "Microsoft.AspNetCore.SpaProxy/6.0.11": {
+        "runtime": {
+          "lib/net6.0/Microsoft.AspNetCore.SpaProxy.dll": {
+            "assemblyVersion": "6.0.11.0",
+            "fileVersion": "6.0.1122.52304"
+          }
+        }
+      },
       "Microsoft.EntityFrameworkCore/7.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Abstractions": "7.0.0",
           "Microsoft.EntityFrameworkCore.Analyzers": "7.0.0",
           "Microsoft.Extensions.Caching.Memory": "7.0.0",
-          "Microsoft.Extensions.DependencyInjection": "7.0.0",
+          "Microsoft.Extensions.DependencyInjection": "10.0.2",
           "Microsoft.Extensions.Logging": "7.0.0"
         },
         "runtime": {
@@ -69,7 +77,7 @@
       "Microsoft.Extensions.Caching.Memory/7.0.0": {
         "dependencies": {
           "Microsoft.Extensions.Caching.Abstractions": "7.0.0",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.2",
           "Microsoft.Extensions.Logging.Abstractions": "7.0.0",
           "Microsoft.Extensions.Options": "7.0.0",
           "Microsoft.Extensions.Primitives": "7.0.0"
@@ -92,29 +100,29 @@
           }
         }
       },
-      "Microsoft.Extensions.DependencyInjection/7.0.0": {
+      "Microsoft.Extensions.DependencyInjection/10.0.2": {
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.2"
         },
         "runtime": {
-          "lib/net6.0/Microsoft.Extensions.DependencyInjection.dll": {
-            "assemblyVersion": "7.0.0.0",
-            "fileVersion": "7.0.22.51805"
+          "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.225.61305"
           }
         }
       },
-      "Microsoft.Extensions.DependencyInjection.Abstractions/7.0.0": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions/10.0.2": {
         "runtime": {
-          "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
-            "assemblyVersion": "7.0.0.0",
-            "fileVersion": "7.0.22.51805"
+          "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.225.61305"
           }
         }
       },
       "Microsoft.Extensions.Logging/7.0.0": {
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection": "7.0.0",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0",
+          "Microsoft.Extensions.DependencyInjection": "10.0.2",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.2",
           "Microsoft.Extensions.Logging.Abstractions": "7.0.0",
           "Microsoft.Extensions.Options": "7.0.0"
         },
@@ -135,7 +143,7 @@
       },
       "Microsoft.Extensions.Options/7.0.0": {
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.2",
           "Microsoft.Extensions.Primitives": "7.0.0"
         },
         "runtime": {
@@ -237,12 +245,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Microsoft.AspNetCore.SpaProxy/10.0.2": {
+    "Microsoft.AspNetCore.SpaProxy/6.0.11": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-kcXcAbHM4zCnQSbA0bKPbUcYup+z+bgL4+Jhf6qRICABDEVRPn5HCT8rZnLYfoocVvw3fixDiC8T004T+HPAjA==",
-      "path": "microsoft.aspnetcore.spaproxy/10.0.2",
-      "hashPath": "microsoft.aspnetcore.spaproxy.10.0.2.nupkg.sha512"
+      "sha512": "sha512-dZBapO26vgxfH5YsWQWiQZu3vDW4TRJ42MThxJKYG9OTI3wItWOvbMcQnecErVUHAxbJVw9R0uxyUQrynIwy0w==",
+      "path": "microsoft.aspnetcore.spaproxy/6.0.11",
+      "hashPath": "microsoft.aspnetcore.spaproxy.6.0.11.nupkg.sha512"
     },
     "Microsoft.EntityFrameworkCore/7.0.0": {
       "type": "package",
@@ -300,19 +308,19 @@
       "path": "microsoft.extensions.configuration.abstractions/7.0.0",
       "hashPath": "microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512"
     },
-    "Microsoft.Extensions.DependencyInjection/7.0.0": {
+    "Microsoft.Extensions.DependencyInjection/10.0.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-elNeOmkeX3eDVG6pYVeV82p29hr+UKDaBhrZyWvWLw/EVZSYEkZlQdkp0V39k/Xehs2Qa0mvoCvkVj3eQxNQ1Q==",
-      "path": "microsoft.extensions.dependencyinjection/7.0.0",
-      "hashPath": "microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512"
+      "sha512": "sha512-J/Zmp6fY93JbaiZ11ckWvcyxMPjD6XVwIHQXBjryTBgn7O6O20HYg9uVLFcZlNfgH78MnreE/7EH+hjfzn7VyA==",
+      "path": "microsoft.extensions.dependencyinjection/10.0.2",
+      "hashPath": "microsoft.extensions.dependencyinjection.10.0.2.nupkg.sha512"
     },
-    "Microsoft.Extensions.DependencyInjection.Abstractions/7.0.0": {
+    "Microsoft.Extensions.DependencyInjection.Abstractions/10.0.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-h3j/QfmFN4S0w4C2A6X7arXij/M/OVw3uQHSOFxnND4DyAzO1F9eMX7Eti7lU/OkSthEE0WzRsfT/Dmx86jzCw==",
-      "path": "microsoft.extensions.dependencyinjection.abstractions/7.0.0",
-      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
+      "sha512": "sha512-zOIurr59+kUf9vNcsUkCvKWZv+fPosUZXURZesYkJCvl0EzTc9F7maAO4Cd2WEV7ZJJ0AZrFQvuH6Npph9wdBw==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/10.0.2",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.10.0.2.nupkg.sha512"
     },
     "Microsoft.Extensions.Logging/7.0.0": {
       "type": "package",

@@ -42,3 +42,4 @@ A:\projects\test_task\AngularWithAsp\AngularWithAsp.Server\obj\Debug\net8.0\Angu
 A:\projects\test_task\AngularWithAsp\AngularWithAsp.Server\obj\Debug\net8.0\AngularWithAsp.Server.genruntimeconfig.cache
 A:\projects\test_task\AngularWithAsp\AngularWithAsp.Server\obj\Debug\net8.0\ref\AngularWithAsp.Server.dll
 A:\projects\test_task\AngularWithAsp\AngularWithAsp.Server\bin\Debug\net8.0\Microsoft.AspNetCore.SpaProxy.dll
+A:\projects\test_task\AngularWithAsp\AngularWithAsp.Server\obj\Debug\net8.0\AngularWithAsp.Server.sourcelink.json

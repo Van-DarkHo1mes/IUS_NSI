@@ -1,23 +1,11 @@
 {
   "Version": 1,
-  "Hash": "BFk+F1SUmyrGBbz0DR1wI5qoL/dKWK6TsNFr6zcHtXw=",
+  "Hash": "Wr0HkdkOTK4TPW7GnOlFG5SLO91OT1+4X8Fr6HHEMfM=",
   "Source": "AngularWithAsp.Server",
   "BasePath": "_content/AngularWithAsp.Server",
   "Mode": "Default",
   "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [
-    {
-      "Identity": "A:\\projects\\test_task\\AngularWithAsp\\angularwithasp.client\\angularwithasp.client.esproj",
-      "Version": 2,
-      "Source": "angularwithasp.client",
-      "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
-      "AdditionalPublishProperties": "",
-      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier",
-      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
-      "AdditionalBuildProperties": "",
-      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier"
-    }
-  ],
+  "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
   "Assets": []
 }
